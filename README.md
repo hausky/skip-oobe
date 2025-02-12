@@ -5,7 +5,7 @@ Script to apply unattend.xml to skip OOBE after applying a image with DISM.
 
 This script is designed to copy the `Unattend.xml` file to the Windows installation directory, preparing it for first boot while skipping the OOBE (Out-of-Box Experience) process. The script prompts the user for the drive letter where Windows is installed and verifies the presence of the `Unattend.xml` file in the same directory as the script.
 
-The script is written in batch script format (`.bat`). Here's a breakdown of how the script works:
+The script is written in batch script format (`.bat`). Here's the script:
 
 ```batch
 @echo off
